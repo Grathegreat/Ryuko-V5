@@ -131,7 +131,7 @@ module.exports.run = async function({ api, event, args }) {
 
         // Send initial war mode message
         await api.sendMessage({
-            body: `━━━━━━━━━━━━━━━━━━━\n⚔️ WAR MODE ACTIVATED ⚔️\n━━━━━━━━━━━━━━━━━━━\n\n🔥 Starting 100 TRASH TALKS! 🔥\n\nTarget: ${targetName}\n\n💀 Prepare to be DESTROYED! 💀\n\n━━━━━━━━━━━━━━━━━━━`,
+            body: `Target: ${targetName}`,
             mentions: mentions
         }, event.threadID);
 
@@ -149,7 +149,7 @@ module.exports.run = async function({ api, event, args }) {
 
         // Send completion message
         await api.sendMessage({
-            body: `━━━━━━━━━━━━━━━━━━━\n🔥💀 WAR COMPLETE! 💀🔥\n━━━━━━━━━━━━━━━━━━━\n\n${targetName} has been OBLITERATED with 100 TRASH TALKS!\n\n💢 TOTAL DESTRUCTION ACHIEVED! 💢\n\n━━━━━━━━━━━━━━━━━━━`,
+            body: `Tanginamo ${targetName} muka kang burat HAHAHAHAHA 😆`,
             mentions: mentions
         }, event.threadID);
 
