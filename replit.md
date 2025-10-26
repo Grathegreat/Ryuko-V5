@@ -55,7 +55,40 @@ Uses SQLite3 with Sequelize ORM. The database file is stored at:
 - JWT tokens are used for web authentication
 - Database and appstate files are excluded from version control
 
+## New Features Added
+
+### War Command
+- **Command**: `!war @mention`
+- **Description**: Send Tagalog rant messages to mentioned users
+- **Usage**: Mention someone to send them a fun Tagalog rant message
+- **Example**: `!war @JohnDoe`
+
+### Anti-Join Feature
+- **Command**: `!antijoin on/off`
+- **Permission**: Group admins only
+- **Description**: Automatically removes new members who join the group
+- **Requirements**: Bot must be a group admin
+- **Usage**: 
+  - `!antijoin on` - Enable anti-join protection
+  - `!antijoin off` - Disable anti-join protection
+
+### Anti-Out Feature
+- **Command**: `!antiout on/off`
+- **Permission**: Group admins only
+- **Description**: Automatically adds back members who leave the group
+- **Messages**: 
+  - Success: "No left 😜" - When user is added back
+  - Failed: "Can't add - need approval" - When bot can't add user back
+- **Usage**: 
+  - `!antiout on` - Enable anti-out protection
+  - `!antiout off` - Disable anti-out protection
+
 ## Recent Changes
+- Added war.js command for Tagalog rants with user mentions
+- Added antijoin.js command to prevent new members from joining
+- Added antiout.js command to prevent members from leaving
+- Updated join.js event to support anti-join feature
+- Updated leave.js event to support anti-out feature
 - Configured port to 5000 for Replit compatibility
 - Set server to bind to 0.0.0.0
 - Rebuilt sqlite3 for Node.js 20.x compatibility
