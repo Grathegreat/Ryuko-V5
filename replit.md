@@ -59,9 +59,18 @@ Uses SQLite3 with Sequelize ORM. The database file is stored at:
 
 ### War Command
 - **Command**: `!war @mention`
-- **Description**: Send Tagalog rant messages to mentioned users
-- **Usage**: Mention someone to send them a fun Tagalog rant message
-- **Example**: `!war @JohnDoe`
+- **Version**: 3.0.0 (100 Rants Edition)
+- **Description**: Ultra intense Tagalog roasting with adult language
+- **Features**:
+  - 100 different hardcore Tagalog rants
+  - Adult language included (PUTANGINA, GAGO, ULOL, KUPAL, PUTA, LECHE, HAYOP, etc.)
+  - Real Filipino street ranter energy
+  - Multiple insults per rant for maximum roasting
+  - Random emoji reactions (🔥💢💥, 😡🤬💢, 💀🔥😡)
+  - Mentions the target user
+- **Usage**: `!war @mention`
+- **Example**: `!war @JohnDoe` - Sends one of 100 random intense Tagalog roasts
+- **Warning**: Contains strong adult language - use responsibly!
 
 ### Anti-Join Feature
 - **Command**: `!antijoin on/off`
