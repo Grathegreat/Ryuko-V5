@@ -14,7 +14,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event, args }) {
     try {
         const mention = Object.keys(event.mentions);
-        
+
         if (mention.length === 0) {
             return api.sendMessage("❌ Mention someone para awayin! Usage: !war @mention", event.threadID, event.messageID);
         }
@@ -138,9 +138,9 @@ module.exports.run = async function({ api, event, args }) {
         // Send all 100 rants sequentially with delays
         for (let i = 0; i < allRants.length; i++) {
             await new Promise(resolve => setTimeout(resolve, Math.floor(Math.random() * 1000) + 1000)); // Random 1-2 second delay
-            
+
             const message = allRants[i].replace(/\{name}/g, targetName);
-            
+
             await api.sendMessage({
                 body: `[${i + 1}/100] ${message}`,
                 mentions: mentions
