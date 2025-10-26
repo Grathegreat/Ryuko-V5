@@ -15,7 +15,7 @@ const fs = require("fs-extra")
 const process = require('process');
 const moment = require("moment-timezone");
 const app = express();
-const port = 8099;
+const port = process.env.PORT || 5000;
 const cron = require('node-cron');
 const path = require('path');
 const jwt = require('jsonwebtoken');
@@ -233,7 +233,9 @@ app.get('/info', (req, res) => {
 app.use((req, res) => {
     res.status(500).sendFile(path.join(__dirname, 'public/notFound.html'));
 });
-app.listen(port);
+app.listen(port, '0.0.0.0', () => {
+    console.log(chalk.green(`Server is running on http://0.0.0.0:${port}`));
+});
 var configValue;
 try {
     const configPath = "./config.json";
