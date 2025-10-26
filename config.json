@@ -7,13 +7,13 @@
   "approval": false,
   "premium": false,
   "autopost": true,
-  "email": "sanjivfresh@gmail.com",
+  "email": "onlyonehacker999@gmail.com",
   "operators": [
-    "100091459940475"
+    "61569790299591"
   ],
   "autorestart": {
-    "status": false,
-    "time": 180,
+    "status": true,
+    "time": 3,
     "note": "the system is automatically restarts in 3 hours"
   },
   "autoDeleteCache": {
@@ -35,7 +35,7 @@
     "autoMarkDelivery": false,
     "autoMarkRead": false,
     "autoReconnect": true,
-    "online": false,
+    "online": true,
     "emitReady": false,
     "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
   },
