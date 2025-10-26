@@ -59,18 +59,25 @@ Uses SQLite3 with Sequelize ORM. The database file is stored at:
 
 ### War Command
 - **Command**: `!war @mention`
-- **Version**: 3.0.0 (100 Rants Edition)
-- **Description**: Ultra intense Tagalog roasting with adult language
+- **Version**: 4.0.0 (Sequential 100 Rants Edition)
+- **Description**: Sends ALL 100 intense Tagalog trash talks sequentially
 - **Features**:
-  - 100 different hardcore Tagalog rants
+  - **Sends ALL 100 trash talks one after another** (not just one!)
+  - **1-2 second random delay** between each trash talk
   - Adult language included (PUTANGINA, GAGO, ULOL, KUPAL, PUTA, LECHE, HAYOP, etc.)
   - Real Filipino street ranter energy
   - Multiple insults per rant for maximum roasting
-  - Random emoji reactions (🔥💢💥, 😡🤬💢, 💀🔥😡)
-  - Mentions the target user
+  - Progress counter [1/100], [2/100], etc.
+  - Mentions the target user in every message
+  - Opening message: "WAR MODE ACTIVATED"
+  - Closing message: "WAR COMPLETE - TOTAL DESTRUCTION ACHIEVED"
 - **Usage**: `!war @mention`
-- **Example**: `!war @JohnDoe` - Sends one of 100 random intense Tagalog roasts
-- **Warning**: Contains strong adult language - use responsibly!
+- **Example**: `!war @JohnDoe` - Unleashes ALL 100 trash talks sequentially with delays
+- **Duration**: Approximately 2-3 minutes to complete all 100 messages
+- **Warning**: 
+  - Contains strong adult language - use responsibly!
+  - Will flood the chat with 100+ messages
+  - Use only when you want MAXIMUM ROASTING
 
 ### Anti-Join Feature
 - **Command**: `!antijoin on/off`

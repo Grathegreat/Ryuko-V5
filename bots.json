@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "name": "Boogey Man",
+    "uid": "61582920416942",
+    "botname": "Whiskey ni Dolphy",
+    "prefix": "*",
+    "admins": [
+      "61569790299591"
+    ],
+    "username": "Boogey",
+    "password": "0Astoasto",
+    "time": 0,
+    "thumbSrc": "https://scontent-del1-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=cp0_dst-png_s32x32&_nc_cat=1&ccb=1-7&_nc_sid=83c60a&_nc_ohc=owXgrBh0NC4Q7kNvwEap4rQ&_nc_oc=Adk-68BPzvsOreXDG4TlGb3-nHMWZuzyq9H3PcoGxPrMP3Shv05t9j8y7ZKkHHkpaNA&_nc_zt=24&_nc_ht=scontent-del1-1.xx&oh=00_AfflklCjSUyGTLBa9wFW5oZm5LSdgo3Fj-MeRA0lvXr74g&oe=69256EBA",
+    "profileUrl": "https://www.facebook.com/profile.php?id=61582920416942",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkJvb2dleSIsInBhc3N3b3JkIjoiMEFzdG9hc3RvIiwiaWF0IjoxNzYxNDgxMDczLCJleHAiOjE3NjE0ODQ2NzN9.0LRUNwF12ZkbnsexsmcvT7HtDe1FI3yuKaSK_fYNWjQ"
+  }
+]
